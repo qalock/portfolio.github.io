@@ -33,7 +33,7 @@ export default function App() {
   }
   return (
     <React.Fragment>
-      <HashRouter basename="/portfolio.github.io">
+      <HashRouter >
         <Navbar />
         <ToastContainer
           position="top-right"
