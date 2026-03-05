@@ -249,3 +249,12 @@ border:1px solid #facc15;
 .stat-box:hover {
   transform: translateY(-6px);
 }
+
+
+.loader-container{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#0f172a;
+}
