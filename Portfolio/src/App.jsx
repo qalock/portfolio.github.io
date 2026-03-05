@@ -33,7 +33,7 @@ export default function App() {
   }
   return (
     <React.Fragment>
-      <BrowserRouter basename="/portfolio.github.io">
+      <BrowserRouter basename="/">
         <Navbar />
         <ToastContainer
           position="top-right"
