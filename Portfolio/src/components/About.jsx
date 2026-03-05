@@ -36,17 +36,17 @@ export default function About() {
 
             <p className="text-light">
               I focus on creating scalable backend systems with
-              <span className="text-warning"> Django & Django REST Framework</span>
-              and responsive frontend interfaces using
+              <span className="text-warning"> Django & Django REST Framework</span> 
+               and responsive frontend interfaces using
               <span className="text-warning"> React and Bootstrap</span>.
             </p>
 
             <p className="text-light">
               I have built projects like an
               <span className="text-warning"> Inventory & Warehouse Management System</span>
-              and an
+               and an
               <span className="text-warning"> Appointment Booking Application</span>
-              using full stack technologies.
+               using full stack technologies.
             </p>
 
             {/* Highlights */}
