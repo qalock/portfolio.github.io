@@ -8,7 +8,9 @@ import About from "./components/About";
 import { ToastContainer } from "react-toastify";
 import Footer from "./components/Footer";
 import AOS from "aos";
-import { useEffect } from "react";
+import { useEffect,useState } from "react";
+import Loader from "./components/Loader";
+
 
 export default function App() {
   useEffect(() => {
