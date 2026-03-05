@@ -11,7 +11,7 @@ body {
 .navbar {
   border: none !important;
   box-shadow: none !important;
-  padding: 18px 0;
+  padding: 12px 0;
   background-color: #111827 !important;
 }
 
@@ -21,6 +21,7 @@ body {
 }
 
 .navbar-brand {
+  color:#38bdf8 !important;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -36,7 +37,8 @@ body {
 }
 
 .nav-link.active {
-  color: #38bdf8 !important;
+  /* color: #38bdf8 !important; */
+  color:#ffc107 !important;
 }
 
 /* ===== Smooth Scroll ===== */

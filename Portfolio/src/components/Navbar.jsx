@@ -2,12 +2,18 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
+  const closeNavbar = () => {
+  const navbar = document.getElementById("navbarNav");
+  if (navbar.classList.contains("show")) {
+    navbar.classList.remove("show");
+  }
+};
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark bg-opacity-75 backdrop-blur shadow-sm sticky-top">
       <div className="container">
 
         {/* Brand */}
-        <NavLink className="navbar-brand fw-bold fs-4 text-info" to="/">
+        <NavLink className="navbar-brand fw-bold fs-4 text-info" to="/" >
           PortFolio
         </NavLink>
 
@@ -31,6 +37,7 @@ export default function Navbar() {
             <li className="nav-item">
               <NavLink
                 to="/"
+                onClick={closeNavbar}
                 className={({ isActive }) =>
                   isActive
                     ? "nav-link fw-semibold text-info"
@@ -44,6 +51,7 @@ export default function Navbar() {
             <li className="nav-item">
               <NavLink
                 to="/projects"
+                onClick={closeNavbar}
                 className={({ isActive }) =>
                   isActive
                     ? "nav-link fw-semibold text-info"
@@ -57,6 +65,7 @@ export default function Navbar() {
             <li className="nav-item">
               <NavLink
                 to="/about"
+                onClick={closeNavbar}
                 className={({ isActive }) =>
                   isActive
                     ? "nav-link fw-semibold text-info"
@@ -70,6 +79,7 @@ export default function Navbar() {
             <li className="nav-item">
               <NavLink
                 to="/contact"
+                onClick={closeNavbar}
                 className={({ isActive }) =>
                   isActive
                     ? "nav-link fw-semibold text-info"
