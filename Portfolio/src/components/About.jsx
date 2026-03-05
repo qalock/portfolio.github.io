@@ -13,7 +13,7 @@ export default function About() {
         <div className="row align-items-center">
 
           {/* Image */}
-          <div className="col-lg-5 text-center mb-4">
+          <div className="col-lg-5 text-center mb-4" data-aos="fade-right">
             <img
               src={aboutImg}
               alt="about"
@@ -22,7 +22,7 @@ export default function About() {
           </div>
 
           {/* Text */}
-          <div className="col-lg-7">
+          <div className="col-lg-7" data-aos="fade-left">
 
             <h3 className="text-light fw-bold mb-3">
               Full Stack Developer

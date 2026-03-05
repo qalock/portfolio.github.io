@@ -5,7 +5,7 @@ export default function Stats() {
     <section className="stats-section py-5">
       <div className="container">
 
-        <div className="row text-center">
+        <div className="row text-center" data-aos="zoom-out">
 
           <div className="col-md-3 col-6 mb-4">
             <div className="stat-box">
