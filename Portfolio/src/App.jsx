@@ -21,7 +21,7 @@ export default function App(){
   }, []);
     return(
         <React.Fragment>
-            <BrowserRouter>
+            <BrowserRouter basename="/portfolio.github.io">
             <Navbar/>
             <ToastContainer position="top-right" autoClose={3000} hideProgressBar={false} newestOnTop closeOnClick pauseOnHover theme="dark"/>
             <Routes>
