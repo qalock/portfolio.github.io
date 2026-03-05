@@ -14,7 +14,7 @@ export default function Home() {
       <section className="hero-section d-flex align-items-center">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-6" data-aos="fade-right">
+            <div className="col-lg-6 text-center text-lg-start" data-aos="fade-right">
               <h1 className="display-3 fw-bold text-light">
                 Hi, I'm Suraj Pandey
               </h1>
@@ -40,24 +40,24 @@ export default function Home() {
                 REST Framework.
               </p>
 
-              <div className="mt-4">
+              <div className="mt-4 d-flex flex-wrap gap-3">
                 <a
                   href="./public/Suraj Resume.pdf"
                   download
-                  className="btn btn-warning btn-lg me-3"
+                  className="btn btn-warning px-4 py-2"
                 >
                   <FaDownload className="me-2" />
                   Resume
                 </a>
         
-                <Link to='/projects' className="btn btn-warning btn-lg me-3" >VIEW PROJECTS</Link>
-                <Link to='/contact' className="btn btn-warning btn-lg me-3" >CONTACT ME</Link>
+                <Link to='/projects' className="btn btn-warning px-4 py-2" >VIEW PROJECTS</Link>
+                <Link to='/contact' className="btn btn-warning px-4 py-2" >CONTACT ME</Link>
 
                 
               </div>
             </div>
 
-            <div className="col-lg-6 text-center" data-aos="fade-left">
+            <div className="col-lg-6 text-center mt-5 mt-lg-0" data-aos="fade-left">
               <img
                 src={developer}
                 alt="developer"
