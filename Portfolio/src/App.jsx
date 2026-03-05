@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
@@ -33,7 +33,7 @@ export default function App() {
   }
   return (
     <React.Fragment>
-      <BrowserRouter basename="/">
+      <HashRouter basename="/portfolio.github.io">
         <Navbar />
         <ToastContainer
           position="top-right"
@@ -51,7 +51,7 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </React.Fragment>
   );
 }
