@@ -42,8 +42,8 @@ export default function Home() {
 
               <div className="mt-4 d-flex flex-wrap gap-3">
                 <a
-                  href="/surajresume.pdf"
-                  download
+                  href={`${import.meta.env.BASE_URL}surajresume.pdf`}
+                  download="Suraj_Pandey_Resume"
                   className="btn btn-warning px-4 py-2"
                 >
                   <FaDownload className="me-2" />
