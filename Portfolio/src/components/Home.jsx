@@ -42,7 +42,7 @@ export default function Home() {
 
               <div className="mt-4 d-flex flex-wrap gap-3">
                 <a
-                  href={`${import.meta.env.BASE_URL}surajresume.pdf`}
+                  href="/surajresume.pdf"
                   download="Suraj_Pandey_Resume"
                   className="btn btn-warning px-4 py-2"
                 >
